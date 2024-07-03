@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577b0cfb5dd3bf4429d45d89571f5088, type: 3}
+  m_Name: DefaultStaticData
+  m_EditorClassIdentifier: 
+  PlayerPrefab: {fileID: 1811332654127891205, guid: 5ec89c3f3000b3e4cbccedaf75227f71, type: 3}
+  MaxHealth: 20
+  MaxMana: 10
+  ManaStackItemPrefab: {fileID: 8547324626711314193, guid: e17b95e99163a3f4f842331bdba7006f, type: 3}
+  ManaOnGroundItemPrefab: {fileID: 7736062149114175995, guid: 94e8238f80ff40d4ea930b65a7acd4b7, type: 3}
+  ManaStackSpawnPointOffset: {x: -0.5, y: 2, z: 0}
+  VerticalStep: 0.1
+  HorizontalNoise: 0.1
+  DropSpread: 500
+  DroppedSpawnPoint: {x: -0.5, y: 3, z: 0}
+  LifeTimeOnDrop: 5
+  MovementSpeed: 2000
+  RotationSpeed: 240
+  CameraSmoothness: 5
+  CameraFollowDelay: 0.3
+  CameraOffset: {x: 0, y: 13, z: -7}
+  ProximityListUpdateInterval: 0.5
+  ProximityListMaxSize: 100
+  ItemPickupRange: 2
+  ItemLayer:
+    serializedVersion: 2
+    m_Bits: 64
